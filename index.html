@@ -8,44 +8,49 @@
     <link rel="stylesheet" type="text/css" href="./assets/CSS/style.css"/>
 </head>
 <body>
-    <header>
+    <header id="header">
        <h1>CSS Snippet Cheatsheet</h1>
        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
     </p>
     </header>
 
-    <main>
-        <section>
+    <main id="contents">
+        <section class="content-items">
             <h3>Flexbox-Row</h3>
-            <p>Use these three properties to create a Flexbox row layout.</p>
-            <p>.row {<br>display: flex;<br>flex-direction: row;<br>flex-wrap: wrap;<br>}</p>
+            <p class="description">Use these three properties to create a Flexbox row layout.</p>
+            <p class="code">.row {<br>display: flex;<br>flex-direction: row;<br>flex-wrap: wrap;<br>}</p>
         </section>
-        <section>
+
+        <section class="content-items">
             <h3>Flexbox-Column</h3>
-            <p>Use this to create a Flexbox column layout.</p>
-            <p>.column {<br>display: flex;<br>flex-direction: column<br>}</p>
+            <p class="description">Use this to create a Flexbox column layout.</p>
+            <p class="code">.column {<br>display: flex;<br>flex-direction: column<br>}</p>
         </section>
         
-        <section>
+        <section class="content-items">
             <h3>CSS Grid Layout</h3>
-            <p>Build a 12-column layout using CSS Grid</p>
-            <p>.grid { <br/> display: grid;<br/>width: 100%; <br/>grid-template-columns:<br/>repeat(12, 1fr);<br/>}</p>
+            <p class="description">Build a 12-column layout using CSS Grid</p>
+            <p class="code">.grid { <br/> display: grid;<br/>width: 100%; <br/>grid-template-columns:<br/>repeat(12, 1fr);<br/>}</p>
         </section>
-        <section>
+
+        <section class="content-items">
             <h3>Linear Gradients</h3>
-            <p>This will create a background linear gradient from top to bottom</p>
-            <p>.linear-gradient-background {<br/> background-image: linear- <br/> gradient( <br/> rgba (232, 102, 236, 0.3) )%, <br/> rgba (232, 102, 236, 0.6) 100% <br/> ); <br/> }</div></p>
+            <p class="description">This will create a background linear gradient from top to bottom</p>
+            <p class="code">.linear-gradient-background {<br/> background-image: linear- <br/> gradient( <br/> rgba (232, 102, 236, 0.3) )%, <br/> rgba (232, 102, 236, 0.6) 100% <br/> ); <br/> }</div></p>
         </section>
-        <section>
+
+        <section class="content-items">
             <h3>Box Transition Glow</h3>
-            <p>Use transition and box shadows to glow on hover.</p>
-            <p>.code-card .card-header { <br>border-radius: 8px;<br>transition: all 0.5s ease-in-out;<br>} </p>
+            <p class="description">Use transition and box shadows to glow on hover.</p>
+            <p class="code">.code-card .card-header { <br>border-radius: 8px;<br>transition: all 0.5s ease-in-out;<br>} </p>
         </section>
-        <section>
+
+        <section class="content-items">
             <h3>Overlay Card with Title</h3>
-            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
-            <p>.card-header { <br>position: relative;<br>margin-top: -20px<br>}</p>
+            <p class="description">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            <p class="code">.card-header { <br>position: relative;<br>margin-top: -20px<br>}</p>
         </section>
+
     </main>
 
     <footer>
