@@ -1,0 +1,16 @@
+:root {
+  --title-name: #EB455F;
+  --color: #FCFFE7;
+  --color2: #FCFFE7;
+  --background: #2B3467;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 3% 0 3%;
+}
