@@ -27,11 +27,6 @@ body {
   margin-right: 20%;
 }
 
-
-
-
-
-
 /* main content */
 main {
   display: flex;
@@ -40,15 +35,24 @@ main {
 }
 
 .content-items {
+  border: dashed;
+  margin: 24px;
+  padding: 8px;
   min-height: 300px;
   max-height: 300px;
   min-width: 300px;
-  max-width: 300px
+  max-width: 300px;
   margin: 2;
 }
 
 .content-items h3 {
+  border: 2px solid #FCFFE7;
+  background-color: #2B3467;
+
+  position: relative;
+  top: -40px;
   color: #EB455F;
+  z-index: 1;
 }
 
 .content-items .description {
@@ -62,11 +66,6 @@ main {
   background-color: #EB455F;
   border-radius: 10px;
   padding: 16px;
-  min-height: 200px;
-  max-height: 200px;
-  min-width: 300px;
-  max-width: 300px;
-
 }
 
 
@@ -81,6 +80,7 @@ footer {
   color: #EB455F;
   text-align: center;
 }
+
 
 @media screen and (max-width) {
 
