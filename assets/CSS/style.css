@@ -48,7 +48,8 @@ main {
 .content-items h3 {
   border: 2px solid #FCFFE7;
   background-color: #2B3467;
-
+  border-radius: 7px;
+  padding: 6px;
   position: relative;
   top: -40px;
   color: #EB455F;
