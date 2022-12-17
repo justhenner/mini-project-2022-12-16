@@ -83,11 +83,11 @@ footer {
 
 
 @media screen and (max-width: 992px) { 
-.content-items: {50%;
+.content-items {width: 50%;
 }
 }
 
 @media screen and (max-width: 768) {
-  .content-items: {100%;
+  .content-items {width: 100%;
 }
 }  
