@@ -38,17 +38,18 @@ main {
   border: dashed;
   margin: 24px;
   padding: 8px;
-  min-height: 300px;
-  max-height: 300px;
-  min-width: 300px;
-  max-width: 300px;
+  min-height: 350px;
+  max-height: 350px;
+  min-width: 350px;
+  max-width: 350px;
   margin: 2;
 }
 
 .content-items h3 {
   border: 2px solid #FCFFE7;
   background-color: #2B3467;
-
+  border-radius: 7px;
+  padding: 6px;
   position: relative;
   top: -40px;
   color: #EB455F;
