@@ -82,6 +82,12 @@ footer {
 }
 
 
-@media screen and (max-width) {
-
+@media screen and (max-width: 992px) { 
+.content-items: {50%;
 }
+}
+
+@media screen and (max-width: 768) {
+  .content-items: {100%;
+}
+}  
